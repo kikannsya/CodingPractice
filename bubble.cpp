@@ -18,7 +18,7 @@ int bubbleSort(int A[], int N){
     return sw;
 }
 int main(){
-    int  A[100], M ,sw;
+    int  A[100], N , sw;
     cin >> N;
     for(int i = 0; i < N; i++) cin >> A[i];
 

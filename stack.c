@@ -5,12 +5,12 @@
 int top, s[1000];
 
 void push(int x){
-    S[++top] = x;
+    s[++top] = x;
 }
 
 int pop(){
     top--;
-    return S[top+1];
+    return s[top+1];
 }
 
 int main(){
