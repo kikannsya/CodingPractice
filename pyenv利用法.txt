@@ -1,0 +1,15 @@
+pyenv install --list :インストール可能なpython vesionの表示
+pyenv install {version: 3.11.4}: 指定vesionのインストール
+pyenv versions : 利用可能なpython versionの表示
+
+pyenv global {version} : .pyenv以下のディレクトリすべてに適用されるバージョンを指定
+pyenv local  {version} : 実行ディレクトリ以下で適用されるバージョン指定
+
+pyenv versionと
+python -V　の出力が一致していることを確認
+
+cd {仮想環境保存ファイル}
+python -m venv {仮想環境名}
+
+仮想環境の起動は保存ファイル下のactivation.batを実行
+{仮想環境保存ファイル}/{仮想環境名}/Scripts/activate.bat
