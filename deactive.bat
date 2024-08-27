@@ -1,1 +1,1 @@
-.coding/coding/deactivate.bat
+.coding/coding/Scripts/deactivate.bat
